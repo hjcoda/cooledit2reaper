@@ -7,7 +7,7 @@ The converter is a single Python script (`ses2rpp.py`) and uses only the Python 
 ## Quick Start
 
 ```bash
-cd /home/user/code/cool-reap
+cd /home/user/code/cooledit2reaper
 python3 ses2rpp.py "/path/to/Session.ses"
 python3 -m unittest discover -v
 ```
@@ -28,7 +28,7 @@ No third-party Python packages are required.
 You do **not** need a venv for this script, but here are clean setup steps if you want one:
 
 ```bash
-cd /home/user/code/cool-reap
+cd /home/user/code/cooledit2reaper
 python3 -m venv .venv
 source .venv/bin/activate
 python -V
@@ -44,7 +44,7 @@ deactivate
 
 ## Basic usage
 
-From the `cool-reap` directory:
+From the `cooledit2reaper` directory:
 
 ```bash
 python3 ses2rpp.py "/path/to/Session.ses"
@@ -100,7 +100,7 @@ If `--strict` is enabled, unresolved media causes exit code `1` and no `.rpp` is
 ## Run tests
 
 ```bash
-cd /home/user/code/cool-reap
+cd /home/user/code/cooledit2reaper
 python3 -m unittest discover -v
 ```
 
